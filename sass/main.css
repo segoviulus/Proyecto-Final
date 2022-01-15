@@ -1,0 +1,475 @@
+/*
+COLORES
+*/
+/*
+FONT FAMILY
+*/
+/*
+PADDING
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0;
+  background-color: transparent;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.header__topbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #00ffb6;
+  height: 35px;
+}
+
+.header__icon1 {
+  color: #e33f84;
+  height: 20px;
+}
+
+.header__icon2 {
+  color: #e33f84;
+  height: 20px;
+  padding-left: 30px;
+}
+
+.header__menu {
+  padding: 20px 40px 20px 40px;
+  height: 90px;
+}
+
+.header__menuGen {
+  padding: 20px 40px 20px 40px;
+  height: 90px;
+  background: linear-gradient(135deg, #040229 20%, #20034e 80%);
+}
+
+.header__btn {
+  padding: 20px 40px;
+  background-color: #00ffb6;
+}
+
+.header__img {
+  height: 40px;
+}
+
+.header__link {
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.header__link:hover {
+  color: #e33f84;
+  text-decoration: none;
+}
+
+.text {
+  color: #040229;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.8rem;
+  padding-left: 3px;
+}
+
+.text2 {
+  color: #040229;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
+}
+
+.titulo {
+  color: #040229;
+  font-family: "Roboto Mono", monospace;
+  font-size: 4rem;
+  line-height: 3.3rem;
+  font-weight: 700;
+}
+
+.sub {
+  font-family: "Roboto Mono", monospace;
+  color: #040229;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+}
+
+.btnw {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+  border-radius: 25px;
+  padding: 8px 15px;
+  margin-top: 30px;
+  color: #fff;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: #fff;
+}
+
+.btnw:hover {
+  background-color: #e33f84;
+  border-color: #e33f84;
+}
+
+.btnb {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+  border-radius: 25px;
+  padding: 8px 15px;
+  margin-top: 30px;
+  color: #e33f84;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: #e33f84;
+}
+
+.btnb:hover {
+  background-color: #040229;
+  border-color: #040229;
+}
+
+.btnh {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+  border-radius: 25px;
+  padding: 8px 15px;
+  color: #00ffb6;
+  text-decoration: none;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: #00ffb6;
+  margin-left: 7px;
+}
+
+.btnh:hover {
+  border-color: #e33f84;
+  color: #e33f84;
+}
+
+.separador {
+  height: 2px;
+  width: 15%;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  background-color: #e33f84;
+}
+
+.separadorCorto {
+  height: 2px;
+  width: 2%;
+  background-color: #e33f84;
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+.hero__01 {
+  margin-top: -90px;
+}
+
+.hero__row {
+  height: 100vh;
+  background: linear-gradient(135deg, #040229 20%, #20034e 80%);
+}
+
+.hero__01col {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-left: 2.5rem;
+  padding-right: 25%;
+}
+
+.hero__titulo {
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-top: 90px;
+}
+
+.hero__contenedorSub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero__sub {
+  font-family: "Roboto Mono", monospace;
+  color: #00ffb6;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-right: 25%;
+}
+
+#btnr {
+  display: none;
+}
+
+.btnflo {
+  position: fixed;
+  bottom: 65px;
+  right: 2.5rem;
+}
+
+.btnflo__redes a, .btnflo__mas {
+  display: block;
+  background: #00ffb6;
+  width: 2.4rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  text-align: center;
+  border-radius: 35px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.btnflo__redes a:hover, .btnflo__mas:hover {
+  background: #e33f84;
+}
+
+.btnflo__icon {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.btnflo__iconPlus {
+  height: 1.4rem;
+  width: 1.4rem;
+}
+
+.btnflo__redes a {
+  margin-bottom: -15px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.btnflo__mas:hover {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#btnr:checked ~ .btnflo__redes a {
+  margin-bottom: 10px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.me {
+  padding: 60px 0px 60px 0px;
+}
+
+.me__container1 {
+  background: #000;
+  padding: 90px 0 90px 0;
+}
+
+.me__container2 {
+  background: #000;
+  padding: 90px 0 90px 0;
+}
+
+.me__sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.me__titulo {
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 4rem;
+  line-height: 3.3rem;
+  font-weight: 700;
+}
+
+.me__text {
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.8rem;
+  padding-top: 25px;
+}
+
+.me__text2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 400;
+  line-height: 35px;
+  margin-right: 20%;
+}
+
+.me__text3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 400;
+  line-height: 25px;
+  margin-right: 20%;
+}
+
+.me__imgPpal {
+  width: 100%;
+  border-image-width: 5px;
+}
+
+.tarjeta {
+  /*
+    background y box shadow
+    https://neumorphism.io/#e0e0e0
+    */
+}
+
+.tarjeta__row {
+  padding: 2.5rem 2.5rem;
+  background: #e0e0e0;
+}
+
+.tarjeta a {
+  text-decoration: none;
+}
+
+.tarjeta__sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.tarjeta__contenedorChris {
+  margin: 8px 8px;
+  background: linear-gradient(135deg, #d5d5d5, #fefefe);
+  -webkit-box-shadow: 5px 5px 13px #d7d7d7, -5px -5px 13px #e9e9e9;
+          box-shadow: 5px 5px 13px #d7d7d7, -5px -5px 13px #e9e9e9;
+}
+
+.tarjeta__contenedorChris:hover {
+  background-image: url(../../img/bgChris.jpg);
+  background-repeat: nome;
+  background-size: contain;
+  background-position: top center;
+}
+
+.tarjeta__contenedorGranville {
+  margin: 8px 8px;
+  background: linear-gradient(135deg, #d5d5d5, #fefefe);
+  -webkit-box-shadow: 5px 5px 13px #d7d7d7, -5px -5px 13px #e9e9e9;
+          box-shadow: 5px 5px 13px #d7d7d7, -5px -5px 13px #e9e9e9;
+}
+
+.tarjeta__contenedorGranville:hover {
+  background-image: url(../../img/bgGranville.jpg);
+  background-repeat: nome;
+  background-size: contain;
+  background-position: top center;
+}
+
+.tarjeta__contenedorMuv {
+  margin: 8px 8px;
+  background: linear-gradient(135deg, #d5d5d5, #fefefe);
+  -webkit-box-shadow: 5px 5px 13px #d7d7d7, -5px -5px 13px #e9e9e9;
+          box-shadow: 5px 5px 13px #d7d7d7, -5px -5px 13px #e9e9e9;
+}
+
+.tarjeta__contenedorMuv:hover {
+  background-image: url(../../img/bgMuv.jpg);
+  background-repeat: nome;
+  background-size: contain;
+  background-position: top center;
+}
+
+.tarjeta__img {
+  padding: 8% 8%;
+  width: 100%;
+}
+
+.tarjeta__textos {
+  color: #040229;
+  font-family: "Roboto Mono", monospace;
+  background: #fff;
+  padding: 8% 8%;
+}
+
+.tarjeta__titulo {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.tarjeta__sub {
+  font-size: 1rem;
+}
+
+.footer {
+  position: relative;
+  padding-top: 45px;
+  background: #040229;
+}
+
+.footer__logo {
+  height: 40px;
+}
+
+.footer__sub {
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 9px 0 0 0;
+}
+
+.footer__titulo {
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.footer__icons {
+  width: 1.7rem;
+  height: 1.7rem;
+  padding-left: 5px;
+}
+
+.copyright {
+  position: relative;
+  padding-top: 10px;
+  margin-top: 25px;
+  text-align: center;
+  background: #00ffb6;
+}
+
+.copyright__text {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+/*# sourceMappingURL=main.css.map */

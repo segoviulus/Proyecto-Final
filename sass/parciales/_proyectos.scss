@@ -1,0 +1,56 @@
+.tarjeta{
+    &__row{
+        padding: $pad-contorno $pad-contorno;
+        background: #e0e0e0;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    &__sub{
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        }
+
+    /*
+    background y box shadow
+    https://neumorphism.io/#e0e0e0
+    */
+    @each $paginaweb in Chris, Granville, Muv {
+        
+    &__contenedor#{$paginaweb} {
+        margin: 8px 8px;
+        background: linear-gradient(135deg, #d5d5d5, #fefefe);
+        box-shadow:  5px 5px 13px #d7d7d7,
+                    -5px -5px 13px #e9e9e9;
+        &:hover{
+        background-image: url(../../img/bg#{$paginaweb}.jpg);
+        background-repeat: nome;
+        background-size: contain;
+        background-position: top center;
+    }
+  }
+}
+    &__img{
+        padding: 8% 8%;
+        width: 100%;
+    }
+    &__textos{
+        color: $color-ppal;
+        font-family: $font;
+        background: $color-light;
+        padding: 8% 8%;
+    }
+    &__titulo{
+        font-weight: $font-700;
+        font-size: $font-1-2;
+        
+    }
+    &__sub{
+        font-size: $font-1;
+    }
+   
+}
+
+    

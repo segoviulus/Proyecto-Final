@@ -1,0 +1,45 @@
+#btnr{
+    display: none;
+}
+
+.btnflo{
+    position: fixed;
+    bottom: 65px;
+    right: $pad-contorno;
+&__redes a, &__mas{
+    display: block;
+    background: $color-enfasis;
+    width: 2.4rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    border-radius: 35px;
+    transition: all 500ms ease;
+    &:hover{
+        background: $color-hover;
+    }
+}
+&__icon {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+&__iconPlus {
+    height: 1.4rem;
+    width: 1.4rem;
+}
+}
+
+.btnflo__redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.btnflo__mas:hover{
+    transform: rotate(45deg);}
+
+#btnr:checked~ .btnflo__redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}

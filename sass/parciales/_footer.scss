@@ -1,0 +1,41 @@
+.footer{
+    position: relative;
+    padding-top: 45px;
+    background: $color-ppal;
+
+&__logo {
+    height: 40px;
+    }
+&__sub{
+    font-family: $font;
+    color: $color-light;
+    font-size: $font-1;
+    font-weight: $font-400;
+    padding: 9px 0 0 0;
+}
+&__titulo{
+    font-family: $font;
+    color: $color-light;
+    font-size: $font-1;
+    font-weight: $font-400;
+}
+&__icons {
+    width: 1.7rem;
+    height: 1.7rem;
+    padding-left: 5px;
+}    
+
+}
+
+.copyright{
+    position: relative;
+    padding-top: 10px;
+    margin-top: 25px;
+    text-align: center;
+    background: $color-enfasis;
+&__text{
+    font-family: $font;
+    font-size: 0.8rem;
+    font-weight: $font-400;
+}
+}

@@ -1,0 +1,39 @@
+@mixin text {
+    font-family: $font;
+    color: $color-light;
+}
+
+.hero{
+    &__01{
+        margin-top: -90px;
+    }
+    &__row{
+        height: 100vh;
+        background: linear-gradient(135deg, $color-ppal 20%, $color-secu 80%);
+    }
+    &__01col{
+        align-self: center;
+        padding-left: $pad-contorno;
+        padding-right: 25%;
+    }
+    &__titulo{
+        font-family: $font;
+        color: $color-light;
+        font-size: 4.5rem;
+        font-weight: $font-700;
+        margin-top: 90px;
+    }
+    &__contenedorSub{
+        display: flex;
+
+    }
+    &__sub{
+        font-family: $font;
+        color: $color-enfasis;
+        font-size: 1.2rem;
+        font-weight: $font-400;
+        padding-right: 25%;
+    }
+       
+    
+}
