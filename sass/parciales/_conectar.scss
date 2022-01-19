@@ -1,0 +1,22 @@
+.contacto{
+    &__row{
+        padding: $pad-contorno $pad-contorno;}
+    &__sub{
+        display: flex;
+        align-items: center;}
+    }
+
+.form-label {
+    font-family: $font;
+    font-weight: $font-400;
+    font-size: 1.1rem;
+    color: $color-ppal;
+    margin-bottom: 5px; }
+  
+  .map {
+    width: 100vw;
+    &__iframe {
+    margin-top: 25px;
+    width: 100%;
+    height: 250px; }
+    }

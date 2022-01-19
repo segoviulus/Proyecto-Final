@@ -14,7 +14,7 @@
 .titulo{
     color: $color-ppal;
     font-family: $font;
-    font-size: $font-4;
+    font-size: $font-3-4;
     line-height: 3.3rem;
     font-weight: $font-700;
 }
@@ -54,6 +54,7 @@
     border-width: 2px;
     border-color: $color-hover;
     &:hover{
+        color: $color-light;
         background-color: $color-ppal;
         border-color: $color-ppal;
     }
@@ -86,4 +87,16 @@
     width: 2%;
     background-color: $color-hover;
     transform: rotate(-60deg);
+}
+
+.contenedorSep{
+    display: flex;
+}
+
+.glass{
+padding: 35px;
+border-radius: 35px;
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
 }

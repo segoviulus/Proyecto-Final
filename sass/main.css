@@ -46,12 +46,12 @@ PADDING
 }
 
 .header__icon1 {
-  color: #e33f84;
+  color: #7e089c;
   height: 20px;
 }
 
 .header__icon2 {
-  color: #e33f84;
+  color: #7e089c;
   height: 20px;
   padding-left: 30px;
 }
@@ -64,7 +64,7 @@ PADDING
 .header__menuGen {
   padding: 20px 40px 20px 40px;
   height: 90px;
-  background: linear-gradient(135deg, #040229 20%, #20034e 80%);
+  background: #040229;
 }
 
 .header__btn {
@@ -85,7 +85,7 @@ PADDING
 }
 
 .header__link:hover {
-  color: #e33f84;
+  color: #7e089c;
   text-decoration: none;
 }
 
@@ -105,7 +105,7 @@ PADDING
 .titulo {
   color: #040229;
   font-family: "Roboto Mono", monospace;
-  font-size: 4rem;
+  font-size: 3.4rem;
   line-height: 3.3rem;
   font-weight: 700;
 }
@@ -130,8 +130,8 @@ PADDING
 }
 
 .btnw:hover {
-  background-color: #e33f84;
-  border-color: #e33f84;
+  background-color: #7e089c;
+  border-color: #7e089c;
 }
 
 .btnb {
@@ -140,13 +140,14 @@ PADDING
   border-radius: 25px;
   padding: 8px 15px;
   margin-top: 30px;
-  color: #e33f84;
+  color: #7e089c;
   background-color: transparent;
   border-width: 2px;
-  border-color: #e33f84;
+  border-color: #7e089c;
 }
 
 .btnb:hover {
+  color: #fff;
   background-color: #040229;
   border-color: #040229;
 }
@@ -165,8 +166,8 @@ PADDING
 }
 
 .btnh:hover {
-  border-color: #e33f84;
-  color: #e33f84;
+  border-color: #7e089c;
+  color: #7e089c;
 }
 
 .separador {
@@ -174,15 +175,31 @@ PADDING
   width: 15%;
   margin-right: 2rem;
   margin-top: 1rem;
-  background-color: #e33f84;
+  background-color: #7e089c;
 }
 
 .separadorCorto {
   height: 2px;
   width: 2%;
-  background-color: #e33f84;
+  background-color: #7e089c;
   -webkit-transform: rotate(-60deg);
           transform: rotate(-60deg);
+}
+
+.contenedorSep {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.glass {
+  padding: 35px;
+  border-radius: 35px;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 
 .hero__01 {
@@ -191,7 +208,7 @@ PADDING
 
 .hero__row {
   height: 100vh;
-  background: linear-gradient(135deg, #040229 20%, #20034e 80%);
+  background: linear-gradient(135deg, #040229 20%, #0f089c 80%);
 }
 
 .hero__01col {
@@ -205,15 +222,9 @@ PADDING
 .hero__titulo {
   font-family: "Roboto Mono", monospace;
   color: #fff;
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 700;
   margin-top: 90px;
-}
-
-.hero__contenedorSub {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .hero__sub {
@@ -247,7 +258,7 @@ PADDING
 }
 
 .btnflo__redes a:hover, .btnflo__mas:hover {
-  background: #e33f84;
+  background: #7e089c;
 }
 
 .btnflo__icon {
@@ -281,14 +292,21 @@ PADDING
   padding: 60px 0px 60px 0px;
 }
 
+.me__main {
+  background-color: #fff;
+  padding-top: 25px;
+}
+
 .me__container1 {
-  background: #000;
-  padding: 90px 0 90px 0;
+  padding: 90px 30px;
+  background-image: url(../../img/me/bgme.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center right;
 }
 
 .me__container2 {
-  background: #000;
-  padding: 90px 0 90px 0;
+  padding: 10px 0 60px 0;
 }
 
 .me__sub {
@@ -302,7 +320,7 @@ PADDING
 }
 
 .me__titulo {
-  color: #fff;
+  color: #040229;
   font-family: "Roboto Mono", monospace;
   font-size: 4rem;
   line-height: 3.3rem;
@@ -310,7 +328,7 @@ PADDING
 }
 
 .me__text {
-  color: #fff;
+  color: #040229;
   font-family: "Roboto Mono", monospace;
   font-size: 0.8rem;
   padding-top: 25px;
@@ -318,25 +336,23 @@ PADDING
 
 .me__text2 {
   font-family: "Roboto Mono", monospace;
-  font-size: 2rem;
-  color: #fff;
+  font-size: 1.2rem;
+  color: #040229;
   font-weight: 400;
   line-height: 35px;
-  margin-right: 20%;
+  margin-right: 10%;
 }
 
 .me__text3 {
   font-family: "Roboto Mono", monospace;
   font-size: 1.2rem;
-  color: #fff;
+  color: #040229;
   font-weight: 400;
   line-height: 25px;
-  margin-right: 20%;
 }
 
 .me__imgPpal {
   width: 100%;
-  border-image-width: 5px;
 }
 
 .tarjeta {
@@ -412,6 +428,10 @@ PADDING
   width: 100%;
 }
 
+.tarjeta__imgWeb {
+  width: 100%;
+}
+
 .tarjeta__textos {
   color: #040229;
   font-family: "Roboto Mono", monospace;
@@ -426,6 +446,105 @@ PADDING
 
 .tarjeta__sub {
   font-size: 1rem;
+}
+
+.tarjeta__col {
+  margin: 7px 7px;
+  height: 400px;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+
+.tarjeta__col::-webkit-scrollbar {
+  width: 7px;
+  background: #7777;
+}
+
+.tarjeta__col::-webkit-scrollbar-thumb {
+  background: #00ffb6;
+}
+
+.servicio__row {
+  padding: 2.5rem 2.5rem;
+  background: #e0e0e0;
+}
+
+.servicio__sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.servicio__contenedor {
+  margin: 8px 8px;
+  background: linear-gradient(135deg, #d5d5d5, #fefefe);
+  -webkit-box-shadow: 5px 5px 13px #d7d7d7, -5px -5px 13px #e9e9e9;
+          box-shadow: 5px 5px 13px #d7d7d7, -5px -5px 13px #e9e9e9;
+}
+
+.servicio__img {
+  padding: 8% 8%;
+  width: 100%;
+}
+
+.servicio__img:hover {
+  -webkit-transform: scale(107%);
+          transform: scale(107%);
+}
+
+.servicio__imgWeb {
+  width: 100%;
+}
+
+.servicio__textos {
+  color: #040229;
+  font-family: "Roboto Mono", monospace;
+  background: #fff;
+  padding: 8% 8%;
+}
+
+.servicio__titulo {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.servicio__sub {
+  font-size: 1rem;
+}
+
+.contacto__row {
+  padding: 2.5rem 2.5rem;
+}
+
+.contacto__sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-label {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #040229;
+  margin-bottom: 5px;
+}
+
+.map {
+  width: 100vw;
+}
+
+.map__iframe {
+  margin-top: 25px;
+  width: 100%;
+  height: 250px;
 }
 
 .footer {

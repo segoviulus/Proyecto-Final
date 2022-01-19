@@ -36,6 +36,9 @@
         padding: 8% 8%;
         width: 100%;
     }
+    &__imgWeb{
+        width: 100%;
+    }
     &__textos{
         color: $color-ppal;
         font-family: $font;
@@ -50,7 +53,19 @@
     &__sub{
         font-size: $font-1;
     }
-   
-}
+
+    &__col{
+        margin: 7px 7px;
+        height: 400px;
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;}
+    &__col::-webkit-scrollbar{
+        width: 7px;
+        background: #7777;}
+    &__col::-webkit-scrollbar-thumb{
+        background: $color-enfasis;
+    }
+    }
+
 
     
